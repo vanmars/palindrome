@@ -22,8 +22,9 @@ Extra credit: Create a script that can scan a .txt file to see if it includes an
 | Spec     | Behavior | Input    | Output   |
 | -------- | -------- | -------- | -------- |
 | 1 | Program returns true if the given word is a palindrome. | mom | true |
-| 2 | Program returns true if the given integer is a palindrome. | 2662 | true |
-| 3 | Program scans a text and lists all palindromes. | Mom has her eye on that racecar. | There are three palindromes: Mom, eye, racecar |
+| 2 | Program returns true if the given word is a palindrome, regardless of case. | Mom | true |
+| 3 | Program returns true if the given integer is a palindrome. | 2662 | true |
+| 4 | Program scans a text and lists all palindromes. | Mom has her eye on that racecar. | There are three palindromes: Mom, eye, racecar |
 
 ## Setup/Installation Requirements
 
