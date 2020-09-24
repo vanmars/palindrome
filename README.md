@@ -36,7 +36,7 @@ Extra credit: Create a script that can scan a .txt file to see if it includes an
 
 ## Known Bugs
 
-_There are no known bugs at this time._
+* Scanning a document of words/numbers to check for palindromes only works if there is no punctuation.
 
 ## Technologies Used
 
