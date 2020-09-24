@@ -1,7 +1,7 @@
 class PalindromeChecker
 
   def initialize(input)
-    @input = input
+    @input = input.to_s
   end
 
   def palindrome?
