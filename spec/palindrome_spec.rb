@@ -13,8 +13,13 @@ describe('PalindromeChecker#palindrome?') do
   end
 
   it('checks if an integer is a palindrome') do
-    word = PalindromeChecker.new(2662)
-    expect(word.palindrome?).to(eq(true))
+    int = PalindromeChecker.new(2662)
+    expect(int.palindrome?).to(eq(true))
+  end
+
+  it('scans a document for palindromes') do
+    doc = PalindromeChecker.new('palindromes.txt')
+    expect(doc.palindrome?).to(eq("Total Palindromes = 3: Mom, eye, racecar"))
   end
 
 end
