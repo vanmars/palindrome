@@ -12,4 +12,9 @@ describe('PalindromeChecker#palindrome?') do
     expect(word.palindrome?).to(eq(true))
   end
 
+  it('checks if an integer is a palindrome') do
+    word = PalindromeChecker.new(2662)
+    expect(word.palindrome?).to(eq(true))
+  end
+
 end
